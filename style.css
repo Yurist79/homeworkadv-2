@@ -1,0 +1,753 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    margin: 0 auto;
+}
+
+
+@media (min-width: 320px) {
+
+
+
+    .nav_header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 37px;
+        background-color: #34393d;
+
+    }
+
+    .burg_menu {
+        width: 41px;
+        height: 37px;
+        background-color: #1a2024;
+        color: #fff;
+        line-height: 37px;
+        font-size: 27px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav_menu {
+        width: 182px;
+        height: 161px;
+        position: absolute;
+        top: 37px;
+        right: 0px;
+        display: none;
+    }
+
+    .nav_menu li {
+        background-color: #f5f5f5;
+        height: 32px;
+        font-family: Lato;
+        color: #464646;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 31px;
+        text-align: left;
+        padding-left: 15px;
+        border: 1px solid #e8e8e8;
+    }
+
+    .nav_menu li:hover {
+        background-color: #cbcdce;
+    }
+
+    .nav_header p {
+        font-family: Montserrat;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 26px;
+        margin-left: 20px;
+    }
+
+
+
+    .home_page {
+        width: 100%;
+        height: 55vw;
+        background-image: url(img/header-fon.png);
+        background-size: cover;
+        padding-top: 20px;
+    }
+
+    .home_page b {
+        font-family: Lato;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: left;
+        margin-left: 20px;
+
+    }
+
+
+    .home_page p {
+        font-family: Lato;
+        color: #a6d6e0;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+
+    .fotmenu {
+        width: 75%;
+        height: 28vw;
+        margin-top: 3px;
+        font-family: Lato;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Green_huynya {
+        width: 25%;
+        height: 28vw;
+        background-color: #add9ae;
+        margin-top: 3px;
+        color: #fff;
+        font-size: 37px;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .foto_menu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .foto_menu1 {
+        background-image: url(img/Pizza%20delivery.png);
+        background-position: bottom;
+        background-size: cover;
+    }
+
+    .foto_menu2 {
+        background-image: url(img/UA_UX%20Salads%20fon.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .foto_menu3 {
+        background-image: url(img/Desserts%20fon.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .neque p {
+        font-family: Lato;
+        color: #3f4043;
+        font-size: 20.07px;
+        font-weight: 400;
+        text-align: left;
+        margin-left: 10px;
+        text-transform: uppercase;
+        margin-top: 25px;
+    }
+
+    .neque pre {
+        font-family: Lato;
+        color: #cbcdce;
+        font-size: 10.03px;
+        font-weight: 400;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 7px;
+        ;
+    }
+
+
+    .bloc_prise-text {
+        margin-top: 15px;
+        padding: 0 15px;
+    }
+
+    .prise_head1 {
+        width: 100vw;
+        height: 9vw;
+        background-color: #3d3e41;
+        display: flex;
+        align-items: center;
+        margin-left: -15px;
+    }
+
+
+
+    .prise_head1 h4 {
+        font-family: Lato;
+        color: #acd9ad;
+        font-size: 20.07px;
+        font-weight: 400;
+        text-align: left;
+        text-transform: uppercase;
+        margin-left: 20px;
+
+    }
+
+    .prise_icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .prise_icon h5 {
+        margin: 20px 0 10px 0;
+        font-family: Lato;
+        color: #3f4043;
+        font-size: 15.05px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .bloc_prise-text span {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bloc_prise-text h6 {
+        font-family: Lato;
+        color: #3f4043;
+        font-size: 13.55px;
+        font-weight: 400;
+        margin: 12px 0;
+
+    }
+
+    .bloc_prise-text p {
+        font-family: Lato;
+        color: #3f4043;
+        font-size: 8.78px;
+        font-weight: 400;
+        text-align: justify;
+    }
+
+
+    .prise_head2 h4 {
+        font-family: Lato;
+        color: #fff;
+        font-size: 20.07px;
+        font-weight: 400;
+        text-align: left;
+        text-transform: uppercase;
+        margin-left: 20px;
+    }
+
+    .prise_head2 {
+        width: 100vw;
+        height: 9vw;
+        background-color: #add9ae;
+        display: flex;
+        align-items: center;
+        margin-left: -15px;
+        margin-top: 20px;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        height: 55px;
+        background-color: #add9ae;
+        margin-top: 40px;
+    }
+
+    .foot_tagline p {
+        font-family: Montserrat;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+
+    }
+
+}
+
+@media (min-width: 640px) {
+
+
+    .nav_header {
+        height: 74px;
+    }
+
+    .burg_menu {
+        width: 82px;
+        height: 74px;
+        font-size: 34px;
+    }
+
+    .nav_menu {
+        width: 243px;
+        height: 214px;
+        top: 74px;
+        right: 0;
+        font-size: 14px;
+    }
+
+
+    .home_page {
+        padding-top: 30px;
+    }
+
+    .nav_header p {
+        font-size: 24px;
+    }
+
+
+    .home_page b {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+
+    .home_page p {
+        font-size: 24px;
+        line-height: 64px;
+    }
+
+
+    .fotmenu {
+        font-size: 36px;
+    }
+
+    .Green_huynya {
+        font-size: 45px;
+    }
+
+    .neque {
+        margin-left: 40px;
+    }
+
+    .neque p {
+        font-size: 40px;
+    }
+
+    .neque pre {
+        font-size: 20px
+    }
+
+
+    .bloc_prise-text {
+
+        margin-top: 22px;
+        padding: 0 40px;
+    }
+
+    .prise_head1 {
+        margin-left: -40px;
+
+    }
+
+
+
+    .prise_head1 h4 {
+        font-size: 40px;
+        margin-left: 40px;
+    }
+
+    .prise_icon h5 {
+        margin: 40px 0;
+        font-size: 30px;
+    }
+
+    .prise_icon img {
+        width: 49px;
+        height: 48px;
+    }
+
+    .bloc_prise-text span {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bloc_prise-text h6 {
+        font-size: 27px;
+        margin: 20px 0;
+
+    }
+
+    .bloc_prise-text p {
+        font-size: 17.5px;
+    }
+
+    .prise_head2 h4 {
+        font-size: 40px;
+        margin-left: 40px;
+    }
+
+    .prise_head2 {
+        margin-left: -40px;
+    }
+
+    footer {
+        height: 97px;
+        margin-top: 100px;
+    }
+
+    .foot_tagline p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+}
+
+
+
+@media (min-width: 980px) {
+
+
+    .nav_header {
+        width: 100%;
+        height: 10vw;
+        position: inherit;
+    }
+
+    .nav_header p {
+        display: none;
+    }
+
+    .burg_menu {
+        width: 170px;
+        height: 10vw;
+        background-color: #34393d;
+        background-image: url(img/navigation-logo%20copy.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .burg_menu i {
+        display: none;
+    }
+
+
+    .nav_menu {
+        display: inline-flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        width: 80%;
+        height: 50px;
+        position: relative;
+        left: 0;
+        top: 0px;
+
+    }
+
+    .nav_menu li {
+        background-color: #34393d;
+        font-family: Montserrat;
+        border: none;
+        margin: 10px;
+    }
+
+
+    .nav_menu a {
+        color: #ececec;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .nav_menu li:hover {
+        background-color: #34393d;
+    }
+
+    .nav_header p {
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 64px;
+    }
+
+    .home_page {
+        padding-top: 65px;
+    }
+
+    .home_page b {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 64px;
+        margin-left: 30px;
+    }
+
+    .home_page p {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 64px;
+        margin-left: 30px;
+    }
+
+    .fotmenu {
+        width: 34vw;
+        height: 28vw;
+        margin-top: 3px;
+        font-size: 38px;
+    }
+
+    .Green_huynya {
+        display: none;
+    }
+
+    .foto_menu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .foto_menu1 {
+        background-position: center;
+    }
+
+    .neque {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .neque_logo {
+        width: 220px;
+        height: 89px;
+        background-image: url(img/Menu%20logo%20copy.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+
+    .neque p {
+        font-size: 34px;
+        margin-top: 75px;
+        margin-left: 30px;
+    }
+
+    .neque pre {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+
+    .block_prise {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block_prise1,
+    .block_prise2 {
+        width: 50%;
+    }
+
+    .bloc_prise-text {
+        text-align: justify;
+        padding: 0;
+
+    }
+
+    .prise_head1 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .prise_head1 h4 {
+        margin-left: 15px;
+        font-size: 34px
+    }
+
+    .prise_icon,
+    .bloc_prise-text span,
+    .bloc_prise-text p {
+        margin: 0 20px;
+    }
+
+    .prise_icon h5 {
+        margin: 40px 0;
+        font-size: 26.01px
+    }
+
+    .prise_icon img {
+        width: 40px;
+        height: 39px;
+    }
+
+    .bloc_prise-text h6 {
+        font-size: 24px;
+        margin: 24px 0;
+    }
+
+    .bloc_prise-text p {
+        font-size: 16px;
+    }
+
+    .prise_head2 h4 {
+        margin-left: 15px;
+        font-size: 34px
+    }
+
+    .prise_head2 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+
+    footer {
+        height: 10vw;
+        justify-content: space-between;
+    }
+
+
+    .foot_tagline {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .foot_tagline p {
+        font-size: 18px;
+        font-weight: 400;
+        margin-right: 30px;
+    }
+
+    .foot_icon {
+        background-image: url(img/navigation-logo%20copy.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 160px;
+        height: 83px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+
+    .nav_header {
+        height: 97px;
+
+    }
+
+
+
+    .burg_menu {
+        width: 200px;
+        height: 97px;
+    }
+
+
+
+
+    .home_page {
+        padding-top: 65px;
+    }
+
+    .home_page b {
+        font-size: 62px;
+        margin-left: 37px;
+    }
+
+    .home_page p {
+        font-size: 38px margin-left: 37px;
+        margin-top: 50px;
+    }
+
+    .fotmenu {
+        width: 43vw;
+    }
+
+
+    .neque_logo {
+        width: 220px;
+        height: 98px;
+    }
+
+    .neque p {
+        font-size: 40px;
+        margin-top: 70px;
+        margin-left: 25px;
+    }
+
+    .prise_head1 h4,
+    .prise_head2 h4 {
+        margin-left: 20px;
+        font-size: 40px;
+    }
+
+    .prise_icon h5 {
+        font-size: 30px;
+    }
+
+    .prise_icon img {
+        height: 42px;
+    }
+
+    .bloc_prise-text h6 {
+        margin: 27px 0;
+    }
+
+    .bloc_prise-text p {
+        font-size: 17.5px;
+    }
+
+    footer {
+        height: 97px;
+    }
+}
